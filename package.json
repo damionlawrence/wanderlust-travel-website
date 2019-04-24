@@ -18,5 +18,9 @@
   "homepage": "https://github.com/damionlawrence/wanderlust-travel-website#readme",
   "devDependencies": {
     "node-sass": "^4.11.0"
+  },
+  "dependencies": {
+    "bootstrap-sass": "^3.4.1",
+    "jquery": "^3.4.0"
   }
 }
