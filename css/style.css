@@ -5920,7 +5920,12 @@ body {
   animation: move-bottom 2s ease-out; }
 
 .btn-text:link, .btn-text:visited {
-  color: #000; }
+  font-size: 1.6rem;
+  color: #000;
+  display: inline-block;
+  text-decoration: none;
+  border-bottom: 1px solid #000;
+  padding: 3px; }
 
 .header {
   height: 95vh;

@@ -59,7 +59,12 @@
 
   &:link,
   &:visited {
+    font-size: 1.6rem;
     color: $color-black;
+    display: inline-block;
+    text-decoration: none;
+    border-bottom: 1px solid $color-black;
+    padding: 3px;
   }
 
   &::hover {}
