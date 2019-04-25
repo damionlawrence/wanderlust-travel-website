@@ -1,8 +1,13 @@
+//boostrap
+
+@import "../node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+//core
 @import "abstracts/functions";
 @import "abstracts/mixins";
 @import "abstracts/variables";
 
-
+//base
 @import "base/base";
 @import "base/typography";
 @import "base/utilities";

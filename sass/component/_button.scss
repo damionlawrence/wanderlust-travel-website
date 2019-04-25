@@ -54,3 +54,15 @@
     animation: move-bottom 2s ease-out;
   }
 }
+
+.btn-text {
+
+  &:link,
+  &:visited {
+    color: $color-black;
+  }
+
+  &::hover {}
+
+  &::active {}
+}
