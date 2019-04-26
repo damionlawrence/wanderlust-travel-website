@@ -45,7 +45,7 @@ body {
   display: inline-block;
   letter-spacing: .5rem;
 
-  background-image: linear-gradient(to left, $color-primary-light, $color-primary-dark);
+  background-image: linear-gradient(to left, $color-primary-dark, $color-primary-light);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
