@@ -5,4 +5,24 @@
   padding: 2.5rem;
   border-radius: 3px;
   box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
+  transition: all .2s;
+
+  &:hover {
+    transform: translateY(-1.4rem) scale(1.03);
+  }
+
+  &__icon {
+    font-size: 6rem;
+    margin-bottom: .5rem;
+    display: inline-block;
+
+    background-image: linear-gradient(to left, $color-primary-dark, $color-primary-light);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+
+  }
+
+  &__text {}
+
 }

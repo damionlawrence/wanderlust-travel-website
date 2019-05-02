@@ -64,6 +64,9 @@ body {
 .u-center-text {
   text-align: center; }
 
+.u-margin-bottom-small {
+  margin-bottom: 2rem; }
+
 .u-margin-bottom-8 {
   margin-bottom: 8rem; }
 
@@ -187,7 +190,18 @@ body {
   text-align: center;
   padding: 2.5rem;
   border-radius: 3px;
-  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15); }
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+  transition: all .2s; }
+  .feature-box:hover {
+    transform: translateY(-1.4rem) scale(1.03); }
+  .feature-box__icon {
+    font-size: 6rem;
+    margin-bottom: .5rem;
+    display: inline-block;
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.5), rgba(109, 77, 151, 0.4));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent; }
 
 .header {
   height: 95vh;
