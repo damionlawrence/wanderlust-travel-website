@@ -16,7 +16,9 @@
     margin-bottom: .5rem;
     display: inline-block;
 
-    background-image: linear-gradient(to left, $color-primary-dark, $color-primary-light);
+    background-image: linear-gradient(to left,
+      $color-primary-dark,
+      $color-primary-light);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
