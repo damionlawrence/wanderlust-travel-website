@@ -26,7 +26,9 @@
       transform: rotateY(180deg);
 
       &-1 {
-        background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark);
+        background-image: linear-gradient(to right bottom,
+            rgba($color-primary-light, .80),
+            rgba($color-primary-dark, .70));
       }
     }
 
@@ -74,14 +76,14 @@
   }
 
   &__heading-span {
-    padding: 1rem 1.5rem;
+    padding: 0 1.5rem;
     -webkit-box-decoration-break: clone;
     box-decoration-break: clone;
 
     &--1 {
       background-image: linear-gradient(to right bottom,
-          rgba($color-primary-light, .85),
-          rgba($color-primary-dark, .85));
+          rgba($color-primary-light, .80),
+          rgba($color-primary-dark, .80));
     }
   }
 
