@@ -37,6 +37,11 @@
     }
   }
 
+  &--purp {
+    color: $color-white;
+    background-color: $color-primary-purp;
+  }
+
   &::after {
     content: "";
     display: inline-block;
@@ -70,7 +75,7 @@
 
   &:hover {
     color: $color-white;
-    background-color: $color-primary-dark;
+    background-color: $color-primary-purp;
     box-shadow: 0 1rem 2rem rgba($color-black, .3);
     transform: translateY(-2px);
   }

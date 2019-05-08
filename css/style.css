@@ -126,6 +126,10 @@ body {
   .btn--white::after {
     background-color: #fff; }
 
+.btn--purp {
+  color: #fff;
+  background-color: rgba(51, 5, 112, 0.644); }
+
 .btn::after {
   content: "";
   display: inline-block;
@@ -152,7 +156,7 @@ body {
 
 .btn-text:hover {
   color: #fff;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(51, 5, 112, 0.644);
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.3);
   transform: translateY(-2px); }
 
@@ -288,6 +292,24 @@ body {
     font-size: 6rem;
     font-weight: 300; }
 
+.story {
+  width: 75%;
+  margin: 0 auto;
+  background-color: #fff;
+  box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+  padding: 6rem; }
+  .story__shape {
+    width: 15rem;
+    height: 15rem;
+    float: left;
+    background-color: orangered;
+    -webkit-shape-outside: circle(50% at 50% 50%);
+    shape-outside: circle(50% at 50% 50%);
+    -webkit-clip-path: circle(50% at 50% 50%);
+    clip-path: circle(50% at 50% 50%);
+    transform: translateY(-3rem); }
+
 .header {
   height: 95vh;
   background-image: linear-gradient(to right bottom, rgba(109, 77, 151, 0.4), rgba(0, 0, 0, 0.5)), url("../assets/hero.jpg");
@@ -325,8 +347,12 @@ body {
 
 .section-tours {
   background-color: #f7f7f7;
-  padding: 25rem 0 50rem 0;
+  padding: 25rem 0 1rem 0;
   margin-top: -10rem; }
+
+.section-stories {
+  background-color: #f7f7f7;
+  padding: 10rem 0; }
 
 /*!
  * Bootstrap v3.4.1 (https://getbootstrap.com/)
