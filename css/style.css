@@ -288,11 +288,11 @@
   transform: translateY(-4rem); }
 
 .form__radio-group {
-  width: 49%;
-  display: inline-block; }
+  display: inline-block;
+  width: 49%; }
 
 .form__radio-label {
-  font-size: 2rem;
+  font-size: 1.5rem;
   cursor: pointer; }
 
 .form__radio-button {
