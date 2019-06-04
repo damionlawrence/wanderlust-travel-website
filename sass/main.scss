@@ -1,3 +1,6 @@
+//boostrap
+@import "../node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
 //core
 @import "abstracts/functions";
 @import "abstracts/mixins";
@@ -14,7 +17,9 @@
 
 
 // layouts
+@import "layouts/footer";
 @import "layouts/header";
+@import "layouts/navigation";
 @import "pages/home";
 
 //base
@@ -22,6 +27,3 @@
 @import "base/typography";
 @import "base/utilities";
 @import "base/animations";
-
-//boostrap
-@import "../node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
